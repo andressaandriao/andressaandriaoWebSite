@@ -1,0 +1,97 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#header{
+	height:20em;
+	background: url("bannerFacebook.png") no-repeat center center;
+	background-size: cover;
+}
+
+#menuBar{
+	list-style-type: none;
+	background-color: #3a4051;
+	text-transform: uppercase;
+	text-align: center;
+	padding: 1em;
+}
+
+#menuBar li {
+	color: black;
+	font-family: "Josefin Sans", cursive;
+	display: inline;
+	position: relative;
+	padding: 1em;
+	line-height: 3em;
+}
+
+#menuBar a{
+	color: white;
+	text-decoration: none;
+}
+
+#menuBar li a:hover {
+	background-color: rgba(255,177,177, 0.6);
+	padding: 1em 0;
+}
+
+#footer{
+	font-family: "Josefin Sans", cursive;
+	font-size: 0.9em;
+	text-align: center;
+	height: 6em;
+	background-color: #3a4051;
+	padding: 1em;
+	color: white;
+	clear: both;
+}
+
+#body-center {
+	background-color: #fffdf7;
+}
+
+#body-center h1{
+	font-family: 'Patrick Hand SC', cursive;
+	border: 0.1em solid #2c3240;
+	margin-left: 2em;
+	margin-right: 2em;
+	border-radius: 10px;
+}
+
+#body-center p{
+	font-family: 'Nunito', sans-serif;
+}
+
+#body-center h1, #body-center p{
+	color: #2c3240;
+	padding: 1.2em;
+	text-align: center;
+}
+
+.livro{
+  	position: relative;
+	display: inline-block;
+	margin: 3em 2em;
+	border: 0.2em solid #2c3240;
+	color: #2c3240;
+	border-radius: 10px;
+}
+
+.titulo {
+	font-weight: bold;
+}
+
+.serie {
+	line-height: 5px;
+}
+
+.volumes {
+	list-style-type: none;
+
+}
+
+body {
+	background-color: #fffdf7;
+}
