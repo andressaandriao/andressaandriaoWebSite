@@ -32,10 +32,10 @@
 	text-decoration: none;
 }
 
-#menuBar li a:hover {
+/*#menuBar li a:hover {
 	background-color: rgba(255,177,177, 0.6);
 	padding: 1em 0;
-}
+}*/
 
 #footer{
 	font-family: "Josefin Sans", cursive;
@@ -58,6 +58,14 @@
 	margin-left: 2em;
 	margin-right: 2em;
 	border-radius: 10px;
+}
+
+#body-center h2{
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+	margin-left: 2em;
+	margin-right: 2em;
+	margin: 2em;
 }
 
 #body-center p{
@@ -90,6 +98,10 @@
 .volumes {
 	list-style-type: none;
 
+}
+
+.bookOptionTitle {
+	font-weight: bold;
 }
 
 body {
