@@ -104,6 +104,22 @@
 	font-weight: bold;
 }
 
+.tabuleiroCartas table{
+	margin: 2em auto;
+	text-align: center;
+}
+
+.tabuleiroCartas table tr td{
+	padding: 3em;
+}
+
+.cartas {
+	height: 2em;
+	width: 2em;
+	border: 2px solid black;
+}
+
+
 body {
 	background-color: #fffdf7;
 }
