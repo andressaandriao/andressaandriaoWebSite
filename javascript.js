@@ -11,6 +11,12 @@ function main (){
 	$('#menuBar ul li').mouseleave(function (){
 		$(this).fadeTo(10, 1);
 	});
+	$('.bookOptions').mouseover(function(){
+		$(this).fadeTo('fast', 0.5);
+	});
+	$('.bookOptions').mouseleave(function(){
+		$(this).fadeTo(10, 1);
+	});
 }
 
 $(document).ready(main);
