@@ -32,11 +32,6 @@
 	text-decoration: none;
 }
 
-/*#menuBar li a:hover {
-	background-color: rgba(255,177,177, 0.6);
-	padding: 1em 0;
-}*/
-
 #footer{
 	font-family: "Josefin Sans", cursive;
 	font-size: 0.9em;
@@ -87,6 +82,12 @@
 	border-radius: 10px;
 }
 
+.livro img{
+	height: 20em;
+	width: 20em;
+	padding: 1em;
+}
+
 .titulo {
 	font-weight: bold;
 }
@@ -95,31 +96,118 @@
 	line-height: 5px;
 }
 
-.volumes {
-	list-style-type: none;
-
+.bookOptions, .personagens {
+	position: relative;
+	display: inline-block;
+	margin: 1em 1em;
 }
 
-.bookOptionTitle {
+.bookOptions img, .personagens img {
+	height: 15em;
+	width: 15em;
+	border-radius: 100%;
+}
+
+.bookOptionTitle, .personagemTitle {
+	font-size: 1.5em;
 	font-weight: bold;
-}
-
-.tabuleiroCartas table{
-	margin: 2em auto;
 	text-align: center;
 }
 
-.tabuleiroCartas table tr td{
-	padding: 3em;
+#body-center .bookOptions .bookOptionTitle {
+	font-family: 'Cabin Sketch', cursive;
 }
 
-.cartas {
-	height: 2em;
-	width: 2em;
-	border: 2px solid black;
+.bookOptions a{
+	text-decoration: none;
 }
 
+.video{
+	text-align: center;
+}
 
 body {
 	background-color: #fffdf7;
+}
+
+.galeria a{
+	text-decoration: none;
+}
+
+.galeria table{
+	margin: 1em auto;
+	text-align: center;
+}
+
+.galeria table td {
+	border-radius: 5px;
+	border: 2px solid #3a4051;
+	padding: 1em;
+}
+
+.galeria table td img{
+	padding: 1em;
+}
+
+.livros {
+	position: relative;
+	display: inline-block;
+	margin: 3em 2em;
+	border: 0.2em solid #2c3240;
+	color: #2c3240;
+	border-radius: 10px;
+	padding: 2em;
+}
+
+.livros img{
+	float: left;
+}
+
+.livros .bookinformation{
+	padding: 2em;
+	width: 50em;
+	float: right;
+}
+
+#body-center .livros .bookinformation h2{
+	margin: 0.1em;
+}
+
+.livros .bookinformation p {
+	font-size: 0.9em;
+}
+
+#body-center .livros .bookinformation h3{
+	font-family: 'Patrick Hand SC', cursive;
+	text-align: center;
+	margin: 0.1em;
+	font-size: 1.2em;
+}
+
+.bookinformation a{
+	text-decoration: none;
+	color: #ec5068;
+}
+
+.bookinformation a:hover{
+	text-decoration: underline;
+}
+
+.livrofisico{
+	color: #ec5068;
+}
+
+.midiassociais {
+	text-align: center;
+}
+
+.midiassociais a{
+	text-decoration: none;
+}
+
+.midiassociais img {
+	padding: 2em;
+	height: 10em;
+	width: 10em;
+	border-radius: 100%;
 }
