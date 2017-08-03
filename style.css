@@ -215,33 +215,3 @@ a{
 	width: 10em;
 	border-radius: 100%;
 }
-
-.characterBody {
-	float:left;
-	width:101%;
-}
-
-.charInfo {
-	float: right;
-	border: 0.15em solid black;
-	border-radius: 5px;
-	margin: 1em 5em;
-}
-
-.charInfo img{
-	padding: 1em;
-	height: 20em;
-	width: 20em;
-}
-
-.charInfo td{
-	border: 1px solid black;
-	font-family: 'Nunito', sans-serif;
-	text-align: center;
-}
-
-.charInfo th{
-	font-weight: bold;
-	font-family: 'Nunito', sans-serif;
-	text-align: center;
-}
