@@ -17,6 +17,12 @@ function main (){
 	$('.bookOptions').mouseleave(function(){
 		$(this).fadeTo(10, 1);
 	});
+	$('.personagens').mouseover(function(){
+		$(this).fadeTo('fast', 0.5);
+	});
+	$('.personagens').mouseleave(function(){
+		$(this).fadeTo(10, 1);
+	});
 }
 
 $(document).ready(main);

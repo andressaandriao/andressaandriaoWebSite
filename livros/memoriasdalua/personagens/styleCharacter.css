@@ -1,6 +1,6 @@
 .characterBody {
 	float:left;
-	width:101%;
+	width:100%;
 }
 
 .charInfo {
@@ -30,4 +30,12 @@
 
 #body-center li{
 	font-family: 'Nunito', sans-serif;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;
 }
